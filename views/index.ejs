@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <p>Welcome to <%= title %><br><br>Written by: <a href="http://obydul.me">Md Obydullah</a><br><br>Published on: <a href="https://www.mynotepaper.com">mynotepaper.com</a></p>
+    <form action="/" method="POST" enctype="multipart/form-data" >
+    <div class="form-group">
+      <label>Upload File:</label>
+      <input type="file" class="form-control" name="upload"  multiple  autocomplete="off">
+    </div>
+    <div class="form-group">
+      <input type="submit" class="btn btn-info" value="Add"/>
+  </div>
+    </form>
+  </body>
+</html>
